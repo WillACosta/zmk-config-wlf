@@ -1,0 +1,13 @@
+---
+include:
+  - board: xiao_ble
+    shield: wlf_left
+    artifact-name: wlf_left
+
+  - board: xiao_ble
+    shield: wlf_right
+    artifact-name: wlf_right
+
+  - board: xiao_ble
+    shield: settings_reset
+    artifact-name: wlf_settings_reset

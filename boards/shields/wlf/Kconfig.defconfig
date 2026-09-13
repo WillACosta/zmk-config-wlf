@@ -1,0 +1,29 @@
+if SHIELD_WLF_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "The Wolf"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_WLF_LEFT || SHIELD_WLF_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config BT_CTLR
+    default BT
+
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif
+
+endif

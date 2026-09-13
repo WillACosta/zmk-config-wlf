@@ -1,0 +1,23 @@
+name: Notify Parent Repository
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "config/**"
+      - "boards/**"
+      - "build.yaml"
+      - "keymap_drawer.config.yaml"
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Submodule Update in Parent
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.SUBMODULE_SYNC_TOKEN }}
+          repository: WillACosta/wlfkbd
+          event-type: update-submodule
+          client-payload: '{"commit_sha": "${{ github.sha }}", "ref": "${{ github.ref }}"}'

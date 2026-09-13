@@ -1,0 +1,208 @@
+draw_config:
+  dark_mode: true
+  n_columns: 1
+  key_rx: 6
+  key_ry: 6
+  footer_text: "The Wolf Keyboard (wlfkbd)"
+  glyph_tap_size: 14
+  glyph_hold_size: 11
+  glyph_shifted_size: 10
+  glyph_urls:
+    lucide: "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/{}.svg"
+    mdi: "https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg"
+    tabler: "https://unpkg.com/@tabler/icons/icons/outline/{}.svg"
+  svg_extra_style: |
+    svg.keymap {
+      background: #0f0c1b;
+      fill: #f5f3ff;
+    }
+
+    rect.key {
+      fill: #1a162b;
+    }
+
+    rect.key,
+    rect.combo {
+      stroke: #4720ab;
+      stroke-width: 1.2;
+    }
+
+    rect.held,
+    rect.combo.held,
+    rect.combo,
+    rect.combo-separate {
+      fill: #4720ab;
+      stroke: #8b5cf6;
+    }
+
+    rect.trans {
+      fill: #120f20;
+      stroke: #2e264f;
+    }
+
+    rect.ghost,
+    rect.combo.ghost {
+      stroke: #7c4dff;
+    }
+
+    text.label,
+    text.footer {
+      fill: #e9d5ff;
+      stroke: #0f0c1b;
+      stroke-width: 4;
+      paint-order: stroke;
+    }
+
+    text.hold,
+    text.shifted,
+    text.left,
+    text.right,
+    text.tl,
+    text.tr,
+    text.bl,
+    text.br,
+    text.combo {
+      fill: #c4b5fd;
+    }
+
+    text.trans {
+      fill: #5b5175;
+    }
+
+    path.combo {
+      stroke: #7c4dff;
+    }
+
+    /* Lucide and stroke-based glyphs */
+    svg.keymap defs svg[id*="lucide"] path,
+    svg.keymap defs svg[id*="lucide"] circle,
+    svg.keymap defs svg[id*="lucide"] rect,
+    svg.keymap defs svg[id*="lucide"] line,
+    svg.keymap defs svg[id*="lucide"] polyline,
+    svg.keymap defs svg[id*="lucide"] polygon {
+      fill: none;
+      stroke: currentColor;
+    }
+
+    svg.keymap g.key g.glyph use[href*="lucide"],
+    svg.keymap g.key use[href*="lucide"] {
+      color: #e9d5ff;
+    }
+
+    svg.keymap g.key.held g.glyph use[href*="lucide"],
+    svg.keymap g.key.held use[href*="lucide"] {
+      color: #ffffff;
+    }
+
+    svg.keymap g.key.ghost g.glyph use[href*="lucide"],
+    svg.keymap g.key.ghost use[href*="lucide"] {
+      color: #c4b5fd;
+    }
+
+    /* Fill-based glyphs (MDI, Material, etc.) */
+    svg.keymap g.key g.glyph path,
+    svg.keymap g.key g.glyph circle,
+    svg.keymap g.key g.glyph rect {
+      fill: #e9d5ff;
+    }
+
+    svg.keymap g.key.held g.glyph path,
+    svg.keymap g.key.held g.glyph circle {
+      fill: #ffffff;
+    }
+
+    svg.keymap g.key.ghost g.glyph path,
+    svg.keymap g.key.ghost g.glyph circle {
+      fill: #c4b5fd;
+    }
+
+parse_config:
+  trans_legend:
+    t: ""
+    type: trans
+
+  # Modifier function representations
+  modifier_fn_map:
+    left_ctrl: "$$lucide:chevron-up$$"
+    right_ctrl: "$$lucide:chevron-up$$"
+    left_shift: "$$lucide:arrow-big-up$$"
+    right_shift: "$$lucide:arrow-big-up$$"
+    left_alt: "$$lucide:option$$"
+    right_alt: "$$lucide:option$$"
+    left_gui: "$$lucide:command$$"
+    right_gui: "$$lucide:command$$"
+
+  raw_binding_map:
+    # ── Modifiers — Lucide Icons ─────────────────────────────────────────────
+    "&kp LEFT_GUI":      {t: "$$lucide:command$$", type: ghost}
+    "&kp RIGHT_GUI":     {t: "$$lucide:command$$", type: ghost}
+    "&kp LGUI":          {t: "$$lucide:command$$", type: ghost}
+    "&kp RGUI":          {t: "$$lucide:command$$", type: ghost}
+    "&kp LEFT_ALT":      {t: "$$lucide:option$$", type: ghost}
+    "&kp RIGHT_ALT":     {t: "$$lucide:option$$", type: ghost}
+    "&kp LALT":          {t: "$$lucide:option$$", type: ghost}
+    "&kp RALT":          {t: "$$lucide:option$$", type: ghost}
+    "&kp LEFT_SHIFT":    {t: "$$lucide:arrow-big-up$$", type: ghost}
+    "&kp RIGHT_SHIFT":   {t: "$$lucide:arrow-big-up$$", type: ghost}
+    "&kp LSHIFT":        {t: "$$lucide:arrow-big-up$$", type: ghost}
+    "&kp RSHIFT":        {t: "$$lucide:arrow-big-up$$", type: ghost}
+    "&kp LEFT_CONTROL":  {t: "$$lucide:chevron-up$$", type: ghost}
+    "&kp RIGHT_CONTROL": {t: "$$lucide:chevron-up$$", type: ghost}
+    "&kp LCTRL":         {t: "$$lucide:chevron-up$$", type: ghost}
+    "&kp RCTRL":         {t: "$$lucide:chevron-up$$", type: ghost}
+
+    # ── Hold / HRM Labels (Home Row Modifiers) ──────────────────────────────
+    "LEFT_GUI":          "$$lucide:command$$"
+    "RIGHT_GUI":         "$$lucide:command$$"
+    "LEFT_ALT":          "$$lucide:option$$"
+    "RIGHT_ALT":         "$$lucide:option$$"
+    "LEFT_SHIFT":        "$$lucide:arrow-big-up$$"
+    "RIGHT_SHIFT":       "$$lucide:arrow-big-up$$"
+    "LEFT_CONTROL":      "$$lucide:chevron-up$$"
+    "RIGHT_CONTROL":     "$$lucide:chevron-up$$"
+    "LGUI":              "$$lucide:command$$"
+    "RGUI":              "$$lucide:command$$"
+    "LALT":              "$$lucide:option$$"
+    "RALT":              "$$lucide:option$$"
+    "LSHIFT":            "$$lucide:arrow-big-up$$"
+    "RSHIFT":            "$$lucide:arrow-big-up$$"
+    "LCTRL":             "$$lucide:chevron-up$$"
+    "RCTRL":             "$$lucide:chevron-up$$"
+
+    # ── System / Editing / Navigation ────────────────────────────────────────
+    "&kp BACKSPACE":     "$$lucide:delete$$"
+    "&kp BSPC":          "$$lucide:delete$$"
+    "&kp DELETE":        "$$lucide:delete$$"
+    "&kp ENTER":         "$$lucide:corner-down-left$$"
+    "&kp RET":           "$$lucide:corner-down-left$$"
+    "&kp SPACE":         "$$lucide:space$$"
+    "&kp LEFT":          "$$lucide:arrow-left$$"
+    "&kp RIGHT":         "$$lucide:arrow-right$$"
+    "&kp UP":            "$$lucide:arrow-up$$"
+    "&kp DOWN":          "$$lucide:arrow-down$$"
+    "&kp LEFT_ARROW":    "$$lucide:arrow-left$$"
+    "&kp RIGHT_ARROW":   "$$lucide:arrow-right$$"
+    "&kp UP_ARROW":      "$$lucide:arrow-up$$"
+    "&kp DOWN_ARROW":    "$$lucide:arrow-down$$"
+    "&kp HOME":          "$$lucide:chevrons-up$$"
+    "&kp END":           "$$lucide:chevrons-down$$"
+    "&kp PAGE_UP":       "$$lucide:chevron-up$$"
+    "&kp PAGE_DOWN":     "$$lucide:chevron-down$$"
+    "&kp PG_UP":         "$$lucide:chevron-up$$"
+    "&kp PG_DN":         "$$lucide:chevron-down$$"
+
+    # ── Bluetooth ────────────────────────────────────────────────────────────
+    "&bt BT_CLR":        {t: "$$lucide:bluetooth-off$$", type: held}
+    "&bt BT_SEL 0":      {t: "$$lucide:bluetooth$$", s: "0"}
+    "&bt BT_SEL 1":      {t: "$$lucide:bluetooth$$", s: "1"}
+    "&bt BT_SEL 2":      {t: "$$lucide:bluetooth$$", s: "2"}
+    "&bt BT_SEL 3":      {t: "$$lucide:bluetooth$$", s: "3"}
+    "&bt BT_SEL 4":      {t: "$$lucide:bluetooth$$", s: "4"}
+
+    # ── Backlight ────────────────────────────────────────────────────────────
+    "&bl BL_TOG":        "$$lucide:sun-medium$$"
+    "&bl BL_INC":        "$$lucide:sun$$"
+    "&bl BL_DEC":        "$$lucide:sun-dim$$"
+
+    # ── Bootloader ───────────────────────────────────────────────────────────
+    "&bootloader":       {t: "$$lucide:rotate-cw$$", type: held}

@@ -1,0 +1,11 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build and local files
+*.bin
+*.hex
+*.uf2
+.west/
+build/
+.cache/

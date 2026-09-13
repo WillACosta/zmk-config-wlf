@@ -1,0 +1,15 @@
+name: Build ZMK firmware
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "config/wlf.conf"
+      - "config/wlf.keymap"
+      - "config/west.yml"
+      - "boards/**"
+      - "build.yaml"
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main

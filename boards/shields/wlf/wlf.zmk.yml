@@ -1,0 +1,12 @@
+file_format: "1"
+id: wlf
+name: The Wolf
+type: shield
+url: https://github.com/WillACosta/wlfkbd
+requires: [seeed_xiao]
+features:
+  - keys
+  - backlight
+siblings:
+  - wlf_left
+  - wlf_right
