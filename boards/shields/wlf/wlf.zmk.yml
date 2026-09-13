@@ -7,6 +7,7 @@ requires: [seeed_xiao]
 features:
   - keys
   - backlight
+  - underglow
 siblings:
   - wlf_left
   - wlf_right

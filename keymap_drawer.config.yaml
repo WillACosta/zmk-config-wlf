@@ -204,5 +204,13 @@ parse_config:
     "&bl BL_INC":        "$$lucide:sun$$"
     "&bl BL_DEC":        "$$lucide:sun-dim$$"
 
+    # ── RGB / Status LED ─────────────────────────────────────────────────────
+    "&rgb_ug RGB_TOG":   {t: "$$lucide:sparkles$$", type: held}
+    "&rgb_ug RGB_BRI":   "$$lucide:sun-plus$$"
+    "&rgb_ug RGB_BRD":   "$$lucide:sun-minus$$"
+    "&rgb_ug RGB_EFF":   "$$lucide:wand-sparkles$$"
+    "&ext_power EP_TOG": "$$lucide:zap$$"
+
     # ── Bootloader ───────────────────────────────────────────────────────────
     "&bootloader":       {t: "$$lucide:rotate-cw$$", type: held}
+
