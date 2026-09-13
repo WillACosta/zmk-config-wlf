@@ -211,6 +211,10 @@ parse_config:
     "&rgb_ug RGB_EFF":   "$$lucide:wand-sparkles$$"
     "&ext_power EP_TOG": "$$lucide:zap$$"
 
+    # ── Status Indicators ────────────────────────────────────────────────────
+    "&ind_bat":          "$$lucide:battery$$"
+    "&ind_con":          "$$lucide:radio$$"
+
     # ── Bootloader ───────────────────────────────────────────────────────────
     "&bootloader":       {t: "$$lucide:rotate-cw$$", type: held}
 

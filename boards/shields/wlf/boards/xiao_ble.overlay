@@ -65,12 +65,14 @@
         color-mapping = <LED_COLOR_ID_GREEN
                          LED_COLOR_ID_RED
                          LED_COLOR_ID_BLUE>;
+        reset-delay = <280>;
     };
 };
 
 / {
     chosen {
         zmk,underglow = &led_strip;
+        widget_rgb = &led_strip;
     };
 
     aliases {

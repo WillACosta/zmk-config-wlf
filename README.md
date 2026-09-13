@@ -14,7 +14,7 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
 - **Shields:** `wlf_left`, `wlf_right` (Seeed Studio XIAO BLE nRF52840)
 - **Matrix:** 40 keys total (20 per half), column-staggered with splayed thumb cluster
 - **Per-key Backlight:** PWM driven via `AO3400A` MOSFET
-- **Status LEDs:** 4× SK6812 Mini-E addressable RGB LEDs per half, power-gated via `AO3407A` P-channel MOSFET (`STS_LED_EN` / `P0.10` active-low) and driven via SPIM3 MOSI (`STS_LED_DATA` / `P0.09`)
+- **Status LEDs:** 4× SK6812 Mini-E addressable RGB LEDs per half, power-gated via `AO3407A` P-channel MOSFET (`STS_LED_EN` / `P0.10` active-low) and driven via SPIM3 MOSI (`STS_LED_DATA` / `P0.09`). Powered by [`zmk-rgbled-widget`](https://github.com/WillACosta/zmk-rgbled-widget) for clean, minimalist status indication (Connection, Battery, Layer, Combos) with automatic power gating.
 - **Automated Keymap Drawer:** SVG and YAML keymaps auto-generated on push with `#4720ab` theme and Lucide Icons
 - **Keymap Editor Ready:** Native `config/wlf.json` layout definition for visual editing
 
@@ -26,7 +26,11 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
 - A four-layer QWERTY keymap: Base, Navigation, Symbols, Numbers, plus a Settings layer reached from the Nav/Symbol thumb key.
 - Bluetooth profile selection/clear, a bootloader key on each outside key of Settings, NKRO, sleep, and short matrix debounce.
 - Single-zone white backlight support: D10/P1.14 PWM drives the AO3400A low-side MOSFET; use Settings `BL_TOG`, `BL_INC`, and `BL_DEC`.
-- Status RGB LED support: 4 addressable SK6812 Mini-E LEDs per half on `P0.09` (NFC1 / SPIM3 MOSI), power-gated by `P0.10` (NFC2) via an AO3407A P-channel MOSFET (`EXT_POWER`, active-low) to prevent parasitic battery drain. Controlled via Settings layer `RGB_TOG`, `RGB_BRI`, `RGB_BRD`, `RGB_EFF`, and `EP_TOG`.
+- Status RGB LED widget (`zmk-rgbled-widget`):
+  - **Connection:** Solid Blue for connected, breathing/pulsing Blue for disconnected/advertising, solid White for USB.
+  - **Battery:** 80–100% Solid Green, 40–79% Solid Yellow, <40% Solid Red, Breathing Green when charging.
+  - **Layers:** Clean Nuphy-inspired colors (Base/Sym/Nav/Num: Off, Settings/Dev: Green, Media: Cyan, Extra: Purple).
+  - **On-Demand & Energy Saving:** Displays status for 2s on boot or when triggered on demand via thumb combos (Left thumb `mo 1 + Space` for Battery, Right thumb `Enter + mo 2` for Connection) or via the Settings layer (`&ind_con`, `&ind_bat`). The MOSFET gate automatically powers down after 15s of idle for zero quiescent draw.
 
 ## Hardware mapping
 

@@ -2,10 +2,16 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: willACosta
+      url-base: https://github.com/WillACosta
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-rgbled-widget
+      remote: willACosta
+      revision: main
+      path: modules/zmk-rgbled-widget
   self:
-    path: firmware/config
+    path: config
