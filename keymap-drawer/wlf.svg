@@ -285,6 +285,25 @@
 </svg>
 
 </svg>
+<svg id="lucide:sparkles">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" />
+  <path d="M20 2v4" />
+  <path d="M22 4h-4" />
+  <circle cx="4" cy="20" r="2" />
+</svg>
+
+</svg>
 <svg id="lucide:sun">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -354,6 +373,45 @@
   <path d="m6.343 17.657-.707.707" />
   <path d="m5.636 5.636.707.707" />
   <path d="m17.657 17.657.707.707" />
+</svg>
+
+</svg>
+<svg id="lucide:wand-sparkles">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m21.64 3.64-1.28-1.28a1.21 1.21 0 0 0-1.72 0L2.36 18.64a1.21 1.21 0 0 0 0 1.72l1.28 1.28a1.2 1.2 0 0 0 1.72 0L21.64 5.36a1.2 1.2 0 0 0 0-1.72" />
+  <path d="m14 7 3 3" />
+  <path d="M5 6v4" />
+  <path d="M19 14v4" />
+  <path d="M10 2v2" />
+  <path d="M7 8H3" />
+  <path d="M21 16h-4" />
+  <path d="M11 3H9" />
+</svg>
+
+</svg>
+<svg id="lucide:zap">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M15.914 4a1.5 1.5 0 00-2.474-1.561l-9 9A1.5 1.5 0 005.5 14h4.002a.5.5 0 01.471.666L8.086 20a1.5 1.5 0 002.475 1.56l9-9A1.5 1.5 0 0018.5 10h-3.997a.5.5 0 01-.472-.667z" />
 </svg>
 
 </svg>
@@ -1239,8 +1297,9 @@ svg.keymap g.key.ghost g.glyph circle {
 <use href="#lucide:bluetooth" xlink:href="#lucide:bluetooth" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:bluetooth"/>
 <text x="0" y="-24" class="key shifted">4</text>
 </g>
-<g transform="translate(448, 42)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(448, 42)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:zap" xlink:href="#lucide:zap" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:zap"/>
 </g>
 <g transform="translate(504, 28)" class="key trans keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1276,17 +1335,23 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(308, 112)" class="key trans keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(392, 112)" class="key trans keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(392, 112)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<use href="#lucide:sparkles" xlink:href="#lucide:sparkles" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph lucide:sparkles"/>
 </g>
-<g transform="translate(448, 98)" class="key trans keypos-19">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(448, 98)" class="key keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:sun" xlink:href="#lucide:sun" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun"/>
+<text x="0" y="-24" class="key shifted">RGB</text>
 </g>
-<g transform="translate(504, 84)" class="key trans keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(504, 84)" class="key keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:sun-dim" xlink:href="#lucide:sun-dim" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun-dim"/>
+<text x="0" y="-24" class="key shifted">RGB</text>
 </g>
-<g transform="translate(560, 98)" class="key trans keypos-21">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(560, 98)" class="key keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:wand-sparkles" xlink:href="#lucide:wand-sparkles" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:wand-sparkles"/>
 </g>
 <g transform="translate(616, 112)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

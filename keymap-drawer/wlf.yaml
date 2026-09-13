@@ -173,8 +173,8 @@ layers:
     - {type: trans}
     - {type: trans}
     - {t: '$$lucide:sparkles$$', type: held}
-    - $$lucide:sun-plus$$
-    - $$lucide:sun-minus$$
+    - {t: '$$lucide:sun$$', s: RGB}
+    - {t: '$$lucide:sun-dim$$', s: RGB}
     - $$lucide:wand-sparkles$$
     - {type: trans}
     - {type: trans}
