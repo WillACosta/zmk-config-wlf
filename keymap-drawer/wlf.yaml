@@ -1,7 +1,18 @@
 layout: {zmk_keyboard: wlf}
 layers:
   Base:
-  - [ESC, Q, W, E, R, T, Y, U, I, O, P, '$$lucide:delete$$']
+  - - {t: ESCAPE, h: '$$lucide:arrow-big-up$$'}
+    - Q
+    - W
+    - E
+    - R
+    - T
+    - Y
+    - U
+    - I
+    - O
+    - P
+    - $$lucide:delete$$
   - - {t: '$$lucide:chevron-up$$', type: ghost}
     - A
     - S
@@ -25,52 +36,11 @@ layers:
     - .
     - /
     - {t: '$$lucide:command$$', type: ghost}
-    - Nav
+    - Sym
   - - $$lucide:space$$
     - $$lucide:corner-down-left$$
-    - Sym
+    - Nav
     - {t: '$$lucide:option$$', type: ghost}
-  Nav:
-  - - {type: trans}
-    - $$lucide:chevrons-up$$
-    - $$lucide:arrow-up$$
-    - $$lucide:chevrons-down$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - $$lucide:arrow-left$$
-    - $$lucide:arrow-down$$
-    - $$lucide:arrow-right$$
-    - {type: trans}
-    - {type: trans}
-    - $$lucide:arrow-left$$
-    - $$lucide:arrow-down$$
-    - $$lucide:arrow-up$$
-    - $$lucide:arrow-right$$
-    - {type: trans}
-    - {type: trans}
-  - - $$lucide:chevron-up$$
-    - $$lucide:chevron-down$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: held}
-  - - {type: trans}
-    - {type: trans}
-    - Num
-    - {type: trans}
   Sym:
   - ['`', '!', '@', '#', $, '%', ^, '&', '*', (, ), '$$lucide:delete$$']
   - - {type: trans}
@@ -96,10 +66,51 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - Num
+    - {t: Num, type: held}
   - - {type: trans}
     - {type: trans}
-    - {type: held}
+    - {type: trans}
+    - {type: trans}
+  Nav:
+  - - {type: trans}
+    - $$lucide:chevrons-up$$
+    - {type: trans}
+    - $$lucide:chevrons-down$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$lucide:arrow-left$$
+    - $$lucide:arrow-down$$
+    - $$lucide:arrow-up$$
+    - $$lucide:arrow-right$$
+    - {type: trans}
+    - {type: trans}
+  - - $$lucide:chevron-up$$
+    - $$lucide:chevron-down$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - {t: Num, type: held}
     - {type: trans}
   Num:
   - - {type: trans}
@@ -140,7 +151,7 @@ layers:
     - {type: held}
   - - {type: trans}
     - {type: trans}
-    - {type: held}
+    - {type: trans}
     - {type: trans}
   Settings:
   - - {t: '$$lucide:rotate-cw$$', type: held}
