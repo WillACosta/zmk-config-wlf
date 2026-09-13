@@ -161,7 +161,7 @@ layers:
     - {t: '$$lucide:bluetooth$$', s: '2'}
     - {t: '$$lucide:bluetooth$$', s: '3'}
     - {t: '$$lucide:bluetooth$$', s: '4'}
-    - {type: trans}
+    - $$lucide:zap$$
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -172,10 +172,10 @@ layers:
     - $$lucide:sun-dim$$
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
+    - {t: '$$lucide:sparkles$$', type: held}
+    - $$lucide:sun-plus$$
+    - $$lucide:sun-minus$$
+    - $$lucide:wand-sparkles$$
     - {type: trans}
     - {type: trans}
   - - {type: trans}
