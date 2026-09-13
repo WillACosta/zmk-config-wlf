@@ -17,6 +17,44 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
 - **Automated Keymap Drawer:** SVG and YAML keymaps auto-generated on push with `#4720ab` theme and Lucide Icons
 - **Keymap Editor Ready:** Native `config/wlf.json` layout definition for visual editing
 
+## Included in this first firmware revision
+
+- Wireless BLE split: the left half is the central and the right half is the peripheral.
+- Battery reporting for both LiPo-powered halves through ZMK's XIAO BLE board battery-voltage-divider support.
+- The 40-key, 6-column × 4-row electrical matrix, including the missing outer-pinky bottom key and three thumb keys per half.
+- A four-layer QWERTY keymap: Base, Navigation, Symbols, Numbers, plus a Settings layer reached from the Nav/Symbol thumb key.
+- Bluetooth profile selection/clear, a bootloader key on each outside key of Settings, NKRO, sleep, and short matrix debounce.
+- Single-zone white backlight support. D10/P1.14 PWM drives the AO3400A low-side MOSFET; use Settings `BL_TOG`, `BL_INC`, and `BL_DEC`.
+
+The three SK6812 status LEDs on each half are intentionally not enabled yet. Their data/enable nets are present in the PCB but their proposed connection, battery, and layer semantics are a separate firmware feature. Leaving them inactive preserves the low-power core keyboard behavior.
+
+## Hardware mapping
+
+The schematics define the same matrix mapping on both halves:
+
+| Signal | XIAO pin |
+| --- | --- |
+| ROW0–ROW3 | D0–D3 |
+| COL0–COL5 | D4–D9 |
+| White backlight PWM | D10 / P1.14 |
+| Status LED data / enable | NFC1 / NFC2 (reserved) |
+
+The diode orientation is configured as `col2row`. The right-hand transform has a six-column offset and reverses its columns so every layer follows the physical order from the left outer edge to the right outer edge.
+
+## Build
+
+The recommended build route is GitHub Actions. Push this repository to GitHub; the repository-level **Build The Wolf firmware** workflow builds the three entries in [`build.yaml`](build.yaml): `wlf_left`, `wlf_right`, and `wlf_settings_reset`. Download the `wlf-firmware` workflow artifact and unzip it after the build completes.
+
+For a local build, run the following from the repository root to initialize the configuration as a ZMK workspace, then build the two shields with the `xiao_ble` board. The required ZMK manifest is [`config/west.yml`](config/west.yml); its ZMK revision is `main`.
+
+```sh
+west init -l firmware/config
+west update
+west zephyr-export
+west build -s zmk/app -d build/wlf-left -b xiao_ble -- -DSHIELD=wlf_left -DZMK_CONFIG="$PWD/firmware/config" -DZMK_EXTRA_MODULES="$PWD"
+west build -s zmk/app -d build/wlf-right -b xiao_ble -- -DSHIELD=wlf_right -DZMK_CONFIG="$PWD/firmware/config" -DZMK_EXTRA_MODULES="$PWD"
+```
+
 ## Flashing Instructions
 
 1. Put the keyboard half into bootloader mode by pressing the reset button twice quickly (or via the `&bootloader` key).
