@@ -84,6 +84,23 @@
 </svg>
 
 </svg>
+<svg id="lucide:battery">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M 22 14 L 22 10" />
+  <rect x="2" y="6" rx="2" />
+</svg>
+
+</svg>
 <svg id="lucide:bluetooth">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -249,6 +266,26 @@
 >
   <path d="M14 3h7" />
   <path d="M3 3h5.28a1 1 0 0 1 .948.684l5.544 16.632a1 1 0 0 0 .949.684H21" />
+</svg>
+
+</svg>
+<svg id="lucide:radio">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16.247 7.761a6 6 0 0 1 0 8.478" />
+  <path d="M19.075 4.933a10 10 0 0 1 0 14.134" />
+  <path d="M4.925 19.067a10 10 0 0 1 0-14.134" />
+  <path d="M7.753 16.239a6 6 0 0 1 0-8.478" />
+  <circle cx="12" cy="12" r="2" />
 </svg>
 
 </svg>
@@ -820,6 +857,14 @@ svg.keymap g.key.ghost g.glyph circle {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
 <use href="#lucide:option" xlink:href="#lucide:option" x="-7" y="-7" height="14" width="14.0" class="key ghost tap glyph lucide:option"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="280" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="287" y="231" height="14" width="14.0" class="combo tap glyph lucide:battery"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="420" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="427" y="231" height="14" width="14.0" class="combo tap glyph lucide:radio"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 328)" class="layer-Sym">
@@ -977,6 +1022,14 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(518, 218)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="280" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="287" y="231" height="14" width="14.0" class="combo tap glyph lucide:battery"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="420" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="427" y="231" height="14" width="14.0" class="combo tap glyph lucide:radio"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 655)" class="layer-Nav">
@@ -1111,6 +1164,14 @@ svg.keymap g.key.ghost g.glyph circle {
 </a></g>
 <g transform="translate(518, 218)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="280" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="287" y="231" height="14" width="14.0" class="combo tap glyph lucide:battery"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="420" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="427" y="231" height="14" width="14.0" class="combo tap glyph lucide:radio"/>
 </g>
 </g>
 </g>
@@ -1259,6 +1320,14 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(518, 218)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="280" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="287" y="231" height="14" width="14.0" class="combo tap glyph lucide:battery"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="420" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="427" y="231" height="14" width="14.0" class="combo tap glyph lucide:radio"/>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1310)" class="layer-Settings">
@@ -1301,11 +1370,13 @@ svg.keymap g.key.ghost g.glyph circle {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#lucide:zap" xlink:href="#lucide:zap" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:zap"/>
 </g>
-<g transform="translate(504, 28)" class="key trans keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(504, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:radio"/>
 </g>
-<g transform="translate(560, 42)" class="key trans keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(560, 42)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:battery"/>
 </g>
 <g transform="translate(616, 56)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1406,6 +1477,14 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(518, 218)" class="key trans keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+</g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="280" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:battery" xlink:href="#lucide:battery" x="287" y="231" height="14" width="14.0" class="combo tap glyph lucide:battery"/>
+</g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="420" y="225" width="28" height="26" class="combo"/>
+<use href="#lucide:radio" xlink:href="#lucide:radio" x="427" y="231" height="14" width="14.0" class="combo tap glyph lucide:radio"/>
 </g>
 </g>
 </g>

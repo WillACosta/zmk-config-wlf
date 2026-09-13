@@ -162,8 +162,8 @@ layers:
     - {t: '$$lucide:bluetooth$$', s: '3'}
     - {t: '$$lucide:bluetooth$$', s: '4'}
     - $$lucide:zap$$
-    - {type: trans}
-    - {type: trans}
+    - $$lucide:radio$$
+    - $$lucide:battery$$
     - {type: trans}
     - {t: '$$lucide:rotate-cw$$', type: held}
   - - {type: trans}
@@ -194,3 +194,8 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
+combos:
+- p: [35, 36]
+  k: $$lucide:battery$$
+- p: [37, 38]
+  k: $$lucide:radio$$
