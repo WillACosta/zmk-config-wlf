@@ -7,6 +7,7 @@ include:
   - board: xiao_ble//zmk
     shield: wlf_right
     artifact-name: wlf_right
+    cmake-args: -DCONFIG_ZMK_STATUS_ADVERTISEMENT=n
 
   - board: xiao_ble//zmk
     shield: settings_reset
