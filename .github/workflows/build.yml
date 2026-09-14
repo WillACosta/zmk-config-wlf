@@ -4,9 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "config/wlf.conf"
-      - "config/wlf.keymap"
-      - "config/west.yml"
+      - "config/**"
       - "boards/**"
       - "build.yaml"
 

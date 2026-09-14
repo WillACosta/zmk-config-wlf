@@ -31,6 +31,7 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
   - **Battery:** 80–100% Solid Green, 40–79% Solid Yellow, <40% Solid Red, Breathing Green when charging.
   - **Layers:** Clean Nuphy-inspired colors (Base/Sym/Nav/Num: Off, Settings/Dev: Green, Media: Cyan, Extra: Purple).
   - **On-Demand & Energy Saving:** Displays status for 2s on boot or when triggered on demand via thumb combos (Left thumb `mo 1 + Space` for Battery, Right thumb `Enter + mo 2` for Connection) or via the Settings layer (`&ind_con`, `&ind_bat`). The MOSFET gate automatically powers down after 15s of idle for zero quiescent draw.
+- **Pointing & Smooth Scrolling:** Full mouse emulation with HID Resolution Multipliers enabled (`CONFIG_ZMK_POINTING=y` and `CONFIG_ZMK_POINTING_SMOOTH_SCROLLING=y`). The Navigation layer provides 4-way kinetic smooth scrolling (`&msc SCRL_*`) and mouse clicks (`&mkp LCLK`, `&mkp MCLK`, `&mkp RCLK`).
 
 ## Hardware mapping
 

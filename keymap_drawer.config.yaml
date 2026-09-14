@@ -215,6 +215,15 @@ parse_config:
     "&ind_bat":          "$$lucide:battery$$"
     "&ind_con":          "$$lucide:radio$$"
 
+    # ── Pointing / Mouse ─────────────────────────────────────────────────────
+    "&msc SCRL_UP":      "$$lucide:chevrons-up$$"
+    "&msc SCRL_DOWN":    "$$lucide:chevrons-down$$"
+    "&msc SCRL_LEFT":    "$$lucide:chevrons-left$$"
+    "&msc SCRL_RIGHT":   "$$lucide:chevrons-right$$"
+    "&mkp LCLK":         {t: "$$lucide:mouse$$", s: "L"}
+    "&mkp RCLK":         {t: "$$lucide:mouse$$", s: "R"}
+    "&mkp MCLK":         {t: "$$lucide:mouse$$", s: "M"}
+
     # ── Bootloader ───────────────────────────────────────────────────────────
     "&bootloader":       {t: "$$lucide:rotate-cw$$", type: held}
 
