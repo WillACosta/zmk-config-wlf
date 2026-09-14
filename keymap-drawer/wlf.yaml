@@ -78,10 +78,10 @@ layers:
     - $$lucide:chevrons-down$$
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
+    - $$lucide:chevrons-left$$
+    - $$lucide:chevrons-down$$
+    - $$lucide:chevrons-up$$
+    - $$lucide:chevrons-right$$
     - {type: trans}
     - {type: trans}
   - - {type: trans}
@@ -102,9 +102,9 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
+    - {t: '$$lucide:mouse$$', s: L}
+    - {t: '$$lucide:mouse$$', s: M}
+    - {t: '$$lucide:mouse$$', s: R}
     - {type: trans}
     - {type: trans}
     - {type: trans}

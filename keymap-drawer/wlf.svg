@@ -184,6 +184,40 @@
 </svg>
 
 </svg>
+<svg id="lucide:chevrons-left">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m11 17-5-5 5-5" />
+  <path d="m18 17-5-5 5-5" />
+</svg>
+
+</svg>
+<svg id="lucide:chevrons-right">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m6 17 5-5-5-5" />
+  <path d="m13 17 5-5-5-5" />
+</svg>
+
+</svg>
 <svg id="lucide:chevrons-up">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -249,6 +283,23 @@
   <path d="M10 5a2 2 0 0 0-1.344.519l-6.328 5.74a1 1 0 0 0 0 1.481l6.328 5.741A2 2 0 0 0 10 19h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2z" />
   <path d="m12 9 6 6" />
   <path d="m18 9-6 6" />
+</svg>
+
+</svg>
+<svg id="lucide:mouse">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <rect x="5" y="2" rx="7" />
+  <path d="M12 6v4" />
 </svg>
 
 </svg>
@@ -1055,17 +1106,21 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(308, 56)" class="key trans keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(392, 56)" class="key trans keypos-6">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(392, 56)" class="key keypos-6">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:chevrons-left" xlink:href="#lucide:chevrons-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevrons-left"/>
 </g>
-<g transform="translate(448, 42)" class="key trans keypos-7">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(448, 42)" class="key keypos-7">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:chevrons-down" xlink:href="#lucide:chevrons-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevrons-down"/>
 </g>
-<g transform="translate(504, 28)" class="key trans keypos-8">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(504, 28)" class="key keypos-8">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:chevrons-up" xlink:href="#lucide:chevrons-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevrons-up"/>
 </g>
-<g transform="translate(560, 42)" class="key trans keypos-9">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(560, 42)" class="key keypos-9">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:chevrons-right" xlink:href="#lucide:chevrons-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:chevrons-right"/>
 </g>
 <g transform="translate(616, 56)" class="key trans keypos-10">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1133,14 +1188,20 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(392, 168)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(448, 154)" class="key trans keypos-30">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(448, 154)" class="key keypos-30">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:mouse" xlink:href="#lucide:mouse" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse"/>
+<text x="0" y="-24" class="key shifted">L</text>
 </g>
-<g transform="translate(504, 140)" class="key trans keypos-31">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(504, 140)" class="key keypos-31">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:mouse" xlink:href="#lucide:mouse" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse"/>
+<text x="0" y="-24" class="key shifted">M</text>
 </g>
-<g transform="translate(560, 154)" class="key trans keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(560, 154)" class="key keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:mouse" xlink:href="#lucide:mouse" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse"/>
+<text x="0" y="-24" class="key shifted">R</text>
 </g>
 <g transform="translate(616, 168)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
