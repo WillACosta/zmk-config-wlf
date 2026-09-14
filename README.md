@@ -47,6 +47,22 @@ The schematics define the same matrix mapping on both halves:
 
 The diode orientation is configured as `col2row`. The right-hand transform has a six-column offset and reverses its columns so every layer follows the physical order from the left outer edge to the right outer edge.
 
+## Lighting Architecture: Backlight & Addressable RGB Coexistence
+
+The Wolf incorporates both per-key monochrome backlighting (white dumb LEDs) and addressable RGB LEDs (4× SK6812 Mini-E status indicators per half). In ZMK firmware, these two systems operate concurrently without conflicts:
+
+### 1. Independent ZMK Subsystems
+- **White Backlight (`CONFIG_ZMK_BACKLIGHT`):** Driven by Zephyr's `pwm-leds` subsystem using the `&bl` behavior namespace (`&bl BL_TOG`, `&bl BL_INC`, `&bl BL_DEC`).
+- **Status RGB LEDs (`CONFIG_ZMK_RGB_UNDERGLOW` & `zmk-rgbled-widget`):** Driven by Zephyr's `worldsemi,ws2812-spi` driver using the `&rgb_ug` namespace and custom widget behaviors (`&ind_con`, `&ind_bat`).
+
+### 2. Hardware Resource Independence (nRF52840)
+- **Zero Peripheral Collision:** Backlight utilizes Nordic `PWM0` routed to pin `P1.14` (`D10`), while addressable RGB uses Nordic `SPIM3` MOSI on pin `P0.09` (`NFC1`). Because `PWM0` and `SPIM3` are completely distinct hardware peripherals on the nRF52840, there is no timer or DMA contention.
+- **Dedicated Low-Side & High-Side Switching:** The backlight PWM signal drives the gate of an `AO3400A` N-channel MOSFET (switching ground). Status LED power is independently gated on the high side by an `AO3407A` P-channel MOSFET controlled by pin `P0.10` (`NFC2`).
+
+### 3. Battery Conservation & Idle Management
+- **Backlight Idle Off:** Managed by `CONFIG_ZMK_BACKLIGHT_AUTO_OFF_IDLE=y`. When the keyboard enters idle, the PWM duty cycle drops to 0%, turning off the low-side MOSFET (0 µA quiescent draw).
+- **RGB Power Gating (`EXT_POWER`):** SK6812 addressable LEDs contain integrated control ICs that consume ~1 mA per LED even when displaying pure black. To prevent parasitic battery drain, ZMK's external power subsystem (`CONFIG_ZMK_EXT_POWER=y`) and `zmk-rgbled-widget` assert `P0.10` HIGH after 15 seconds of inactivity (`CONFIG_RGBLED_WIDGET_EXT_POWER_TIMEOUT_MS=15000`), physically disconnecting `VCC` from the LED strip.
+
 ## Build
 
 The recommended build route is GitHub Actions. Push this repository to GitHub; the repository-level **Build The Wolf firmware** workflow builds the three entries in [`build.yaml`](build.yaml): `wlf_left`, `wlf_right`, and `wlf_settings_reset`. Download the `wlf-firmware` workflow artifact and unzip it after the build completes.
