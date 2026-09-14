@@ -13,5 +13,9 @@ manifest:
       remote: willACosta
       revision: main
       path: modules/zmk-rgbled-widget
+    - name: prospector-zmk-module
+      remote: willACosta
+      revision: main
+      path: modules/prospector-zmk-module
   self:
     path: config
