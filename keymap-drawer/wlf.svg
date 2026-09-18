@@ -135,6 +135,23 @@
 </svg>
 
 </svg>
+<svg id="lucide:braces">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1" />
+  <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1" />
+</svg>
+
+</svg>
 <svg id="lucide:chevron-down">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -235,6 +252,24 @@
 </svg>
 
 </svg>
+<svg id="lucide:circle-arrow-out-up-left">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M2 8V2h6" />
+  <path d="m2 2 10 10" />
+  <path d="M12 2A10 10 0 1 1 2 12" />
+</svg>
+
+</svg>
 <svg id="lucide:command">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -286,6 +321,116 @@
 </svg>
 
 </svg>
+<svg id="lucide:droplets">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z" />
+  <path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97" />
+</svg>
+
+</svg>
+<svg id="lucide:hash">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <line x1="4" x2="20" y1="9" y2="9" />
+  <line x1="4" x2="20" y1="15" y2="15" />
+  <line x1="10" x2="8" y1="3" y2="21" />
+  <line x1="16" x2="14" y1="3" y2="21" />
+</svg>
+
+</svg>
+<svg id="lucide:lightbulb">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5" />
+  <path d="M9 18h6" />
+  <path d="M10 22h4" />
+</svg>
+
+</svg>
+<svg id="lucide:lightbulb-off">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M16.8 11.2c.8-.9 1.2-2 1.2-3.2a6 6 0 0 0-9.3-5" />
+  <path d="m2 2 20 20" />
+  <path d="M6.3 6.3a4.67 4.67 0 0 0 1.2 5.2c.7.7 1.3 1.5 1.5 2.5" />
+  <path d="M9 18h6" />
+  <path d="M10 22h4" />
+</svg>
+
+</svg>
+<svg id="lucide:mail">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" />
+  <rect x="2" y="4" rx="2" />
+</svg>
+
+</svg>
+<svg id="lucide:monitor-smartphone">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8" />
+  <path d="M10 19v-3.96 3.15" />
+  <path d="M7 19h5" />
+  <rect x="16" y="12" rx="2" />
+</svg>
+
+</svg>
 <svg id="lucide:mouse">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -303,6 +448,24 @@
 </svg>
 
 </svg>
+<svg id="lucide:music">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M9 18V5l12-2v13" />
+  <circle cx="6" cy="18" r="3" />
+  <circle cx="18" cy="16" r="3" />
+</svg>
+
+</svg>
 <svg id="lucide:option">
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -317,6 +480,112 @@
 >
   <path d="M14 3h7" />
   <path d="M3 3h5.28a1 1 0 0 1 .948.684l5.544 16.632a1 1 0 0 0 .949.684H21" />
+</svg>
+
+</svg>
+<svg id="lucide:palette">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z" />
+  <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+  <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+  <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+  <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+</svg>
+
+</svg>
+<svg id="lucide:play">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" />
+</svg>
+
+</svg>
+<svg id="lucide:power">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M12 2v10" />
+  <path d="M18.4 6.6a9 9 0 1 1-12.77.04" />
+</svg>
+
+</svg>
+<svg id="lucide:power-off">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M18.36 6.64A9 9 0 0 1 20.77 15" />
+  <path d="M6.16 6.16a9 9 0 1 0 12.68 12.68" />
+  <path d="M12 2v4" />
+  <path d="m2 2 20 20" />
+</svg>
+
+</svg>
+<svg id="lucide:skip-back">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M17.971 4.285A2 2 0 0 1 21 6v12a2 2 0 0 1-3.029 1.715l-9.997-5.998a2 2 0 0 1-.003-3.432z" />
+  <path d="M3 20V4" />
+</svg>
+
+</svg>
+<svg id="lucide:skip-forward">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M21 4v16" />
+  <path d="M6.029 4.285A2 2 0 0 0 3 6v12a2 2 0 0 0 3.029 1.715l9.997-5.998a2 2 0 0 0 .003-3.432z" />
 </svg>
 
 </svg>
@@ -381,6 +650,59 @@
   <path d="M17.657 17.657h.01" />
   <path d="M6.343 17.657h.01" />
   <path d="M6.343 6.343h.01" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-1">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <path d="M16 9a5 5 0 0 1 0 6" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-2">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z" />
+  <path d="M16 9a5 5 0 0 1 0 6" />
+  <path d="M19.364 18.364a9 9 0 0 0 0-12.728" />
+</svg>
+
+</svg>
+<svg id="lucide:volume-x">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+ 
+ 
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M11 4.702a.7.7 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.7.7 0 0 0 11 19.298z" />
+  <path d="m16.5 14.5 5-5" />
+  <path d="m16.5 9.5 5 5" />
 </svg>
 
 </svg>
@@ -651,7 +973,7 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(0, 56)">
 <g transform="translate(28, 84)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<use href="#lucide:circle-arrow-out-up-left" xlink:href="#lucide:circle-arrow-out-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:circle-arrow-out-up-left"/>
 <use href="#lucide:arrow-big-up" xlink:href="#lucide:arrow-big-up" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:arrow-big-up"/>
 </g>
 <g transform="translate(84, 56)" class="key keypos-1">
@@ -750,7 +1072,7 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(672, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">ESCAPE</text>
+<use href="#lucide:circle-arrow-out-up-left" xlink:href="#lucide:circle-arrow-out-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:circle-arrow-out-up-left"/>
 <use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(84, 168)" class="key keypos-24">
@@ -799,7 +1121,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(266, 232)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;td_media</tspan></text>
+<use href="#lucide:braces" xlink:href="#lucide:braces" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:braces"/>
+<use href="#lucide:music" xlink:href="#lucide:music" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:music"/>
 </g>
 <g transform="translate(322, 244)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -811,7 +1134,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(462, 232)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">&amp;td_light</tspan></text>
+<use href="#lucide:hash" xlink:href="#lucide:hash" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:hash"/>
+<use href="#lucide:lightbulb" xlink:href="#lucide:lightbulb" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:lightbulb"/>
 </g>
 <g transform="translate(518, 218)" class="key ghost keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
@@ -1201,29 +1525,23 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(84, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 70%">BRIGHTNESS</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">DEC</tspan>
-</text>
+<use href="#lucide:sun-dim" xlink:href="#lucide:sun-dim" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun-dim"/>
 </g>
 <g transform="translate(140, 98)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 70%">BRIGHTNESS</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">INC</tspan>
-</text>
+<use href="#lucide:sun" xlink:href="#lucide:sun" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:sun"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 88%">PREVIOUS</tspan></text>
+<use href="#lucide:skip-back" xlink:href="#lucide:skip-back" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:skip-back"/>
 </g>
 <g transform="translate(252, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">PLAY</tspan><tspan x="0" dy="1.2em">PAUSE</tspan>
-</text>
+<use href="#lucide:play" xlink:href="#lucide:play" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:play"/>
 </g>
 <g transform="translate(308, 112)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">NEXT</text>
+<use href="#lucide:skip-forward" xlink:href="#lucide:skip-forward" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:skip-forward"/>
 </g>
 <g transform="translate(392, 112)" class="key trans keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1251,19 +1569,15 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(196, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">MUTE</text>
+<use href="#lucide:volume-x" xlink:href="#lucide:volume-x" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-x"/>
 </g>
 <g transform="translate(252, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">VOL</tspan><tspan x="0" dy="1.2em">DN</tspan>
-</text>
+<use href="#lucide:volume-1" xlink:href="#lucide:volume-1" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-1"/>
 </g>
 <g transform="translate(308, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">VOLUME</tspan><tspan x="0" dy="1.2em">UP</tspan>
-</text>
+<use href="#lucide:volume-2" xlink:href="#lucide:volume-2" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:volume-2"/>
 </g>
 <g transform="translate(392, 168)" class="key trans keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1324,9 +1638,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(392, 56)" class="key keypos-6">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mkp</tspan><tspan x="0" dy="1.2em">MB4</tspan>
-</text>
+<use href="#lucide:mouse" xlink:href="#lucide:mouse" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mouse"/>
+<text x="0" y="-24" class="key shifted">4</text>
 </g>
 <g transform="translate(448, 42)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1348,13 +1661,11 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(672, 84)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;type_email</tspan></text>
+<use href="#lucide:mail" xlink:href="#lucide:mail" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mail"/>
 </g>
 <g transform="translate(28, 140)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">OUT</tspan><tspan x="0" dy="1.2em">TOG</tspan>
-</text>
+<use href="#lucide:monitor-smartphone" xlink:href="#lucide:monitor-smartphone" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:monitor-smartphone"/>
 </g>
 <g transform="translate(84, 112)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1383,34 +1694,27 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(392, 112)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_LEFT</tspan>
-</text>
+<use href="#lucide:arrow-left" xlink:href="#lucide:arrow-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:arrow-left"/>
 </g>
 <g transform="translate(448, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 78%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 78%">MOVE_DOWN</tspan>
-</text>
+<use href="#lucide:arrow-down" xlink:href="#lucide:arrow-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:arrow-down"/>
 </g>
 <g transform="translate(504, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;mmv</tspan><tspan x="0" dy="1.2em">MOVE_UP</tspan>
-</text>
+<use href="#lucide:arrow-up" xlink:href="#lucide:arrow-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:arrow-up"/>
 </g>
 <g transform="translate(560, 98)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 70%">&amp;mmv</tspan><tspan x="0" dy="1.2em" style="font-size: 70%">MOVE_RIGHT</tspan>
-</text>
+<use href="#lucide:arrow-right" xlink:href="#lucide:arrow-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:arrow-right"/>
 </g>
 <g transform="translate(616, 112)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
 <g transform="translate(672, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;type_wrk_…</tspan></text>
+<use href="#lucide:mail" xlink:href="#lucide:mail" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:mail"/>
+<text x="0" y="-24" class="key shifted">work</text>
 </g>
 <g transform="translate(84, 168)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1513,9 +1817,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(140, 98)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUI</tspan>
-</text>
+<use href="#lucide:palette" xlink:href="#lucide:palette" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:palette"/>
+<text x="0" y="-24" class="key shifted">H+</text>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1523,21 +1826,16 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(252, 98)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAI</tspan>
-</text>
+<use href="#lucide:droplets" xlink:href="#lucide:droplets" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:droplets"/>
+<text x="0" y="-24" class="key shifted">S+</text>
 </g>
 <g transform="translate(308, 112)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">ON</tspan>
-</text>
+<use href="#lucide:power" xlink:href="#lucide:power" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:power"/>
 </g>
 <g transform="translate(392, 112)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_ON</tspan>
-</text>
+<use href="#lucide:lightbulb" xlink:href="#lucide:lightbulb" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:lightbulb"/>
 </g>
 <g transform="translate(448, 98)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1560,33 +1858,26 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(140, 154)" class="key keypos-25">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">HUD</tspan>
-</text>
+<use href="#lucide:palette" xlink:href="#lucide:palette" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:palette"/>
+<text x="0" y="-24" class="key shifted">H-</text>
 </g>
 <g transform="translate(196, 140)" class="key keypos-26">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">EFR</tspan>
-</text>
+<use href="#lucide:wand-sparkles" xlink:href="#lucide:wand-sparkles" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:wand-sparkles"/>
+<text x="0" y="-24" class="key shifted">-</text>
 </g>
 <g transform="translate(252, 154)" class="key keypos-27">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">SAD</tspan>
-</text>
+<use href="#lucide:droplets" xlink:href="#lucide:droplets" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:droplets"/>
+<text x="0" y="-24" class="key shifted">S-</text>
 </g>
 <g transform="translate(308, 168)" class="key keypos-28">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">RGB</tspan><tspan x="0" dy="1.2em">OFF</tspan>
-</text>
+<use href="#lucide:power-off" xlink:href="#lucide:power-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:power-off"/>
 </g>
 <g transform="translate(392, 168)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">&amp;bl</tspan><tspan x="0" dy="1.2em">BL_OFF</tspan>
-</text>
+<use href="#lucide:lightbulb-off" xlink:href="#lucide:lightbulb-off" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:lightbulb-off"/>
 </g>
 <g transform="translate(448, 154)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

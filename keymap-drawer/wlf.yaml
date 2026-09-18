@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: wlf}
 layers:
   base:
-  - - {t: ESCAPE, h: '$$lucide:arrow-big-up$$'}
+  - - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:arrow-big-up$$'}
     - Q
     - W
     - E
@@ -24,7 +24,7 @@ layers:
     - {t: K, h: '$$lucide:chevron-up$$'}
     - {t: L, h: '$$lucide:option$$'}
     - ;
-    - {t: ESCAPE, h: '$$lucide:chevron-up$$'}
+    - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:chevron-up$$'}
   - - Z
     - X
     - C
@@ -36,10 +36,10 @@ layers:
     - .
     - /
     - {t: '$$lucide:command$$', type: ghost}
-    - '&td_media'
+    - {t: '$$lucide:braces$$', h: '$$lucide:music$$'}
   - - $$lucide:space$$
     - $$lucide:corner-down-left$$
-    - '&td_light'
+    - {t: '$$lucide:hash$$', h: '$$lucide:lightbulb$$'}
     - {t: '$$lucide:option$$', type: ghost}
   sym:
   - - $$lucide:delete$$
@@ -137,11 +137,11 @@ layers:
     - {type: trans}
     - {type: trans}
   - - {type: trans}
-    - BRIGHTNESS DEC
-    - BRIGHTNESS INC
-    - PREVIOUS
-    - PLAY PAUSE
-    - NEXT
+    - $$lucide:sun-dim$$
+    - $$lucide:sun$$
+    - $$lucide:skip-back$$
+    - $$lucide:play$$
+    - $$lucide:skip-forward$$
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -150,9 +150,9 @@ layers:
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - MUTE
-    - VOL DN
-    - VOLUME UP
+    - $$lucide:volume-x$$
+    - $$lucide:volume-1$$
+    - $$lucide:volume-2$$
     - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -171,24 +171,24 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - '&mkp MB4'
+    - {t: '$$lucide:mouse$$', s: '4'}
     - {t: '$$lucide:mouse$$', s: L}
     - {t: '$$lucide:mouse$$', s: M}
     - {t: '$$lucide:mouse$$', s: R}
     - {type: trans}
-    - '&type_email'
-  - - OUT TOG
+    - $$lucide:mail$$
+  - - $$lucide:monitor-smartphone$$
     - {t: '$$lucide:bluetooth$$', s: '0'}
     - {t: '$$lucide:bluetooth$$', s: '1'}
     - {t: '$$lucide:bluetooth$$', s: '2'}
     - {t: '$$lucide:bluetooth$$', s: '3'}
     - {t: '$$lucide:bluetooth$$', s: '4'}
-    - '&mmv MOVE_LEFT'
-    - '&mmv MOVE_DOWN'
-    - '&mmv MOVE_UP'
-    - '&mmv MOVE_RIGHT'
+    - $$lucide:arrow-left$$
+    - $$lucide:arrow-down$$
+    - $$lucide:arrow-up$$
+    - $$lucide:arrow-right$$
     - {type: trans}
-    - '&type_wrk_email'
+    - {t: '$$lucide:mail$$', s: work}
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -220,22 +220,22 @@ layers:
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - RGB HUI
+    - {t: '$$lucide:palette$$', s: H+}
     - $$lucide:wand-sparkles$$
-    - RGB SAI
-    - RGB ON
-    - '&bl BL_ON'
+    - {t: '$$lucide:droplets$$', s: S+}
+    - $$lucide:power$$
+    - $$lucide:lightbulb$$
     - $$lucide:sun$$
     - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
   - - {type: trans}
-    - RGB HUD
-    - RGB EFR
-    - RGB SAD
-    - RGB OFF
-    - '&bl BL_OFF'
+    - {t: '$$lucide:palette$$', s: H-}
+    - {t: '$$lucide:wand-sparkles$$', s: '-'}
+    - {t: '$$lucide:droplets$$', s: S-}
+    - $$lucide:power-off$$
+    - $$lucide:lightbulb-off$$
     - $$lucide:sun-dim$$
     - {type: trans}
     - {type: trans}
