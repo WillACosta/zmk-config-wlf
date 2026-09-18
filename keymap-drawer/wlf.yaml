@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: wlf}
 layers:
-  Base:
+  base:
   - - {t: ESCAPE, h: '$$lucide:arrow-big-up$$'}
     - Q
     - W
@@ -15,16 +15,16 @@ layers:
     - $$lucide:delete$$
   - - {t: '$$lucide:chevron-up$$', type: ghost}
     - A
-    - S
-    - D
-    - F
+    - {t: S, h: '$$lucide:option$$'}
+    - {t: D, h: '$$lucide:chevron-up$$'}
+    - {t: F, h: '$$lucide:arrow-big-up$$'}
     - G
     - H
-    - J
-    - K
-    - L
+    - {t: J, h: '$$lucide:arrow-big-up$$'}
+    - {t: K, h: '$$lucide:chevron-up$$'}
+    - {t: L, h: '$$lucide:option$$'}
     - ;
-    - ''''
+    - {t: ESCAPE, h: '$$lucide:chevron-up$$'}
   - - Z
     - X
     - C
@@ -36,83 +36,53 @@ layers:
     - .
     - /
     - {t: '$$lucide:command$$', type: ghost}
-    - Sym
+    - '&td_media'
   - - $$lucide:space$$
     - $$lucide:corner-down-left$$
-    - Nav
+    - '&td_light'
     - {t: '$$lucide:option$$', type: ghost}
-  Sym:
-  - ['`', '!', '@', '#', $, '%', ^, '&', '*', (, ), '$$lucide:delete$$']
+  sym:
+  - - $$lucide:delete$$
+    - '!'
+    - '@'
+    - '#'
+    - $
+    - '%'
+    - ^
+    - '&'
+    - '*'
+    - (
+    - )
+    - {type: trans}
   - - {type: trans}
+    - {type: trans}
+    - /
+    - \
     - '['
     - ']'
-    - '{'
-    - '}'
-    - '|'
     - '-'
     - '='
+    - '`'
+    - ''''
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - '?'
+    - '|'
+    - '{'
+    - '}'
     - _
     - +
-    - \
-    - '`'
-  - - '~'
-    - '?'
-    - /
-    - ':'
-    - ;
-    - ','
-    - .
+    - '~'
+    - '"'
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {t: Num, type: held}
+    - ''
   - - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
-  Nav:
-  - - {type: trans}
-    - $$lucide:chevrons-up$$
-    - {type: trans}
-    - $$lucide:chevrons-down$$
-    - {type: trans}
-    - {type: trans}
-    - $$lucide:chevrons-left$$
-    - $$lucide:chevrons-down$$
-    - $$lucide:chevrons-up$$
-    - $$lucide:chevrons-right$$
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - $$lucide:arrow-left$$
-    - $$lucide:arrow-down$$
-    - $$lucide:arrow-up$$
-    - $$lucide:arrow-right$$
-    - {type: trans}
-    - {type: trans}
-  - - $$lucide:chevron-up$$
-    - $$lucide:chevron-down$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {t: '$$lucide:mouse$$', s: L}
-    - {t: '$$lucide:mouse$$', s: M}
-    - {t: '$$lucide:mouse$$', s: R}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - {t: Num, type: held}
-    - {type: trans}
-  Num:
+  nav:
   - - {type: trans}
     - '1'
     - '2'
@@ -126,76 +96,187 @@ layers:
     - '0'
     - {type: trans}
   - - {type: trans}
-    - F1
     - F2
-    - F3
-    - F4
     - F5
-    - F6
-    - F7
-    - F8
-    - F9
-    - F10
     - {type: trans}
-  - - F11
+    - F11
     - F12
+    - $$lucide:arrow-left$$
+    - $$lucide:arrow-down$$
+    - $$lucide:arrow-up$$
+    - $$lucide:arrow-right$$
     - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: held}
   - - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
-  Settings:
-  - - {t: '$$lucide:rotate-cw$$', type: held}
-    - {t: '$$lucide:bluetooth-off$$', type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - ''
+    - {type: trans}
+  media:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - BRIGHTNESS DEC
+    - BRIGHTNESS INC
+    - PREVIOUS
+    - PLAY PAUSE
+    - NEXT
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - MUTE
+    - VOL DN
+    - VOLUME UP
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - ''
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  device:
+  - - {t: '$$lucide:bluetooth-off$$', type: held}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - '&mkp MB4'
+    - {t: '$$lucide:mouse$$', s: L}
+    - {t: '$$lucide:mouse$$', s: M}
+    - {t: '$$lucide:mouse$$', s: R}
+    - {type: trans}
+    - '&type_email'
+  - - OUT TOG
     - {t: '$$lucide:bluetooth$$', s: '0'}
     - {t: '$$lucide:bluetooth$$', s: '1'}
     - {t: '$$lucide:bluetooth$$', s: '2'}
     - {t: '$$lucide:bluetooth$$', s: '3'}
     - {t: '$$lucide:bluetooth$$', s: '4'}
-    - $$lucide:zap$$
-    - $$lucide:radio$$
-    - $$lucide:battery$$
+    - '&mmv MOVE_LEFT'
+    - '&mmv MOVE_DOWN'
+    - '&mmv MOVE_UP'
+    - '&mmv MOVE_RIGHT'
     - {type: trans}
-    - {t: '$$lucide:rotate-cw$$', type: held}
+    - '&type_wrk_email'
   - - {type: trans}
-    - $$lucide:sun-medium$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - $$lucide:chevrons-left$$
+    - $$lucide:chevrons-down$$
+    - $$lucide:chevrons-up$$
+    - $$lucide:chevrons-right$$
+    - {type: trans}
+    - {type: trans}
+    - ''
+  - - {type: trans}
+    - {type: trans}
+    - ''
+    - {type: trans}
+  light:
+  - - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - {type: trans}
+    - RGB HUI
+    - $$lucide:wand-sparkles$$
+    - RGB SAI
+    - RGB ON
+    - '&bl BL_ON'
     - $$lucide:sun$$
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+    - {type: trans}
+  - - {type: trans}
+    - RGB HUD
+    - RGB EFR
+    - RGB SAD
+    - RGB OFF
+    - '&bl BL_OFF'
     - $$lucide:sun-dim$$
     - {type: trans}
     - {type: trans}
-    - {t: '$$lucide:sparkles$$', type: held}
-    - {t: '$$lucide:sun$$', s: RGB}
-    - {t: '$$lucide:sun-dim$$', s: RGB}
-    - $$lucide:wand-sparkles$$
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: trans}
   - - {type: trans}
     - {type: trans}
-    - {type: trans}
+    - ''
     - {type: trans}
 combos:
 - p: [35, 36]
   k: $$lucide:battery$$
+  l: [base]
 - p: [37, 38]
-  k: $$lucide:radio$$
+  k: ''
+  l: [base]
+- p: [1, 2]
+  k: TAB
+  l: [base]
+- p: [18, 19]
+  k: $$lucide:chevrons-up$$
+  l: [base]
+- p: [20, 21]
+  k: $$lucide:chevrons-down$$
+  l: [base]
+- p: [19, 20]
+  k: $$lucide:delete$$
+  l: [base]
+- p: [2, 3]
+  k: $$lucide:chevron-up$$+W
+  l: [base]
+- p: [14, 15]
+  k: $$lucide:chevron-up$$+A
+  l: [base]
+- p: [16, 17]
+  k: $$lucide:corner-down-left$$
+  l: [base]
+- p: [7, 6]
+  k: $$lucide:chevron-up$$
+  l: [base]
+- p: [29, 30]
+  k: $$lucide:chevron-down$$
+  l: [base]
