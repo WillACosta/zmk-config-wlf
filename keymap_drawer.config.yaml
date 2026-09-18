@@ -173,6 +173,10 @@ parse_config:
     "&kp BACKSPACE":     "$$lucide:delete$$"
     "&kp BSPC":          "$$lucide:delete$$"
     "&kp DELETE":        "$$lucide:delete$$"
+    "&mt LEFT_SHIFT ESCAPE":
+                          {t: "$$lucide:circle-arrow-out-up-left$$", h: "$$lucide:arrow-big-up$$"}
+    "&mt LEFT_CONTROL ESCAPE":
+                          {t: "$$lucide:circle-arrow-out-up-left$$", h: "$$lucide:chevron-up$$"}
     "&kp ENTER":         "$$lucide:corner-down-left$$"
     "&kp RET":           "$$lucide:corner-down-left$$"
     "&kp SPACE":         "$$lucide:space$$"
@@ -191,6 +195,20 @@ parse_config:
     "&kp PG_UP":         "$$lucide:chevron-up$$"
     "&kp PG_DN":         "$$lucide:chevron-down$$"
 
+    # ── Layer tap dances ────────────────────────────────────────────────────
+    "&td_media":         {t: "$$lucide:braces$$", h: "$$lucide:music$$"}
+    "&td_light":         {t: "$$lucide:hash$$", h: "$$lucide:lightbulb$$"}
+
+    # ── Media ───────────────────────────────────────────────────────────────
+    "&kp C_BRIGHTNESS_DEC": "$$lucide:sun-dim$$"
+    "&kp C_BRIGHTNESS_INC": "$$lucide:sun$$"
+    "&kp C_PREVIOUS":       "$$lucide:skip-back$$"
+    "&kp C_PLAY_PAUSE":     "$$lucide:play$$"
+    "&kp C_NEXT":           "$$lucide:skip-forward$$"
+    "&kp K_MUTE":           "$$lucide:volume-x$$"
+    "&kp C_VOL_DN":         "$$lucide:volume-1$$"
+    "&kp C_VOLUME_UP":      "$$lucide:volume-2$$"
+
     # ── Bluetooth ────────────────────────────────────────────────────────────
     "&bt BT_CLR":        {t: "$$lucide:bluetooth-off$$", type: held}
     "&bt BT_SEL 0":      {t: "$$lucide:bluetooth$$", s: "0"}
@@ -201,6 +219,8 @@ parse_config:
 
     # ── Backlight ────────────────────────────────────────────────────────────
     "&bl BL_TOG":        "$$lucide:sun-medium$$"
+    "&bl BL_ON":         "$$lucide:lightbulb$$"
+    "&bl BL_OFF":        "$$lucide:lightbulb-off$$"
     "&bl BL_INC":        "$$lucide:sun$$"
     "&bl BL_DEC":        "$$lucide:sun-dim$$"
 
@@ -210,20 +230,37 @@ parse_config:
     "&rgb_ug RGB_BRD":   {t: "$$lucide:sun-dim$$", s: "RGB"}
     "&rgb_ug RGB_EFF":   "$$lucide:wand-sparkles$$"
     "&ext_power EP_TOG": "$$lucide:zap$$"
+    "&rgb_ug RGB_HUI":   {t: "$$lucide:palette$$", s: "H+"}
+    "&rgb_ug RGB_HUD":   {t: "$$lucide:palette$$", s: "H-"}
+    "&rgb_ug RGB_SAI":   {t: "$$lucide:droplets$$", s: "S+"}
+    "&rgb_ug RGB_SAD":   {t: "$$lucide:droplets$$", s: "S-"}
+    "&rgb_ug RGB_EFR":   {t: "$$lucide:wand-sparkles$$", s: "-"}
+    "&rgb_ug RGB_ON":    "$$lucide:power$$"
+    "&rgb_ug RGB_OFF":   "$$lucide:power-off$$"
 
     # ── Status Indicators ────────────────────────────────────────────────────
     "&ind_bat":          "$$lucide:battery$$"
     "&ind_con":          "$$lucide:radio$$"
+    "&ind_conn":         "$$lucide:radio$$"
 
     # ── Pointing / Mouse ─────────────────────────────────────────────────────
     "&msc SCRL_UP":      "$$lucide:chevrons-up$$"
     "&msc SCRL_DOWN":    "$$lucide:chevrons-down$$"
     "&msc SCRL_LEFT":    "$$lucide:chevrons-left$$"
     "&msc SCRL_RIGHT":   "$$lucide:chevrons-right$$"
+    "&mmv MOVE_LEFT":    "$$lucide:arrow-left$$"
+    "&mmv MOVE_DOWN":    "$$lucide:arrow-down$$"
+    "&mmv MOVE_UP":      "$$lucide:arrow-up$$"
+    "&mmv MOVE_RIGHT":   "$$lucide:arrow-right$$"
+    "&mkp MB4":          {t: "$$lucide:mouse$$", s: "4"}
     "&mkp LCLK":         {t: "$$lucide:mouse$$", s: "L"}
     "&mkp RCLK":         {t: "$$lucide:mouse$$", s: "R"}
     "&mkp MCLK":         {t: "$$lucide:mouse$$", s: "M"}
 
+    # ── Output / Macros ──────────────────────────────────────────────────────
+    "&out OUT_TOG":      "$$lucide:monitor-smartphone$$"
+    "&type_email":       "$$lucide:mail$$"
+    "&type_wrk_email":   {t: "$$lucide:mail$$", s: "work"}
+
     # ── Bootloader ───────────────────────────────────────────────────────────
     "&bootloader":       {t: "$$lucide:rotate-cw$$", type: held}
-
