@@ -1014,8 +1014,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 </g>
 </g>
-<g transform="translate(30, 655)" class="layer-nav">
-<text x="0" y="28" class="label" id="nav">nav:</text>
+<g transform="translate(30, 655)" class="layer-num">
+<text x="0" y="28" class="label" id="num">num:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 84)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1157,8 +1157,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 </g>
 </g>
-<g transform="translate(30, 983)" class="layer-media">
-<text x="0" y="28" class="label" id="media">media:</text>
+<g transform="translate(30, 983)" class="layer-med">
+<text x="0" y="28" class="label" id="med">med:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 84)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1300,8 +1300,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1310)" class="layer-device">
-<text x="0" y="28" class="label" id="device">device:</text>
+<g transform="translate(30, 1310)" class="layer-dev">
+<text x="0" y="28" class="label" id="dev">dev:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 84)" class="key held keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -1466,8 +1466,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1638)" class="layer-light">
-<text x="0" y="28" class="label" id="light">light:</text>
+<g transform="translate(30, 1638)" class="layer-lght">
+<text x="0" y="28" class="label" id="lght">lght:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 84)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

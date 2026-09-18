@@ -82,7 +82,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-  nav:
+  num:
   - - {type: trans}
     - '1'
     - '2'
@@ -123,7 +123,7 @@ layers:
     - {type: trans}
     - ''
     - {type: trans}
-  media:
+  med:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
@@ -164,7 +164,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-  device:
+  dev:
   - - {t: '$$lucide:bluetooth-off$$', type: held}
     - {type: trans}
     - {type: trans}
@@ -205,7 +205,7 @@ layers:
     - {type: trans}
     - ''
     - {type: trans}
-  light:
+  lght:
   - - {type: trans}
     - {type: trans}
     - {type: trans}
