@@ -251,7 +251,7 @@ combos:
   k: $$lucide:battery$$
   l: [base]
 - p: [37, 38]
-  k: ''
+  k: $$lucide:radio$$
   l: [base]
 - p: [1, 2]
   k: TAB
