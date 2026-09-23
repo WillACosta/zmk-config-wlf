@@ -124,14 +124,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TD_MEDIA";
             #binding-cells = <0>;
-            bindings = <&mo 1>, <&mo 3>;
+            bindings = <&mo 1>, <&mo 0>;
         };
 
         td_light: td_light {
             compatible = "zmk,behavior-tap-dance";
             label = "TD_LIGHT";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&mo 5>;
+            bindings = <&mo 2>, <&mo 4>;
         };
 
         hrm_left: hrm_left {
@@ -182,7 +182,7 @@
 &kp DELETE  &kp EXCL  &kp AT        &kp HASH       &kp DLLR          &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR           &kp RPAR  &trans
 &trans      &trans    &kp SLASH     &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &kp GRAVE  &kp SINGLE_QUOTE   &trans    &trans
             &trans    &kp QUESTION  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDER  &kp PLUS   &kp TILDE  &kp DOUBLE_QUOTES  &trans
-                                    &trans         &none             &trans             &trans     &trans     &trans
+                                    &trans         &none             &trans             &trans     &mo 3      &trans
             >;
         };
 
@@ -192,27 +192,17 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5   &kp NUMBER_6  &kp N7    &kp N8  &kp N9     &kp NUMBER_0  &trans
 &trans  &kp F2        &kp F5        &trans        &kp F11       &kp F12  &kp LEFT      &kp DOWN  &kp UP  &kp RIGHT  &trans        &trans
         &trans        &trans        &trans        &trans        &trans   &trans        &trans    &trans  &trans     &trans
-                                    &trans        &trans        &trans   &trans        &none     &trans
-            >;
-        };
-
-        media {
-            display-name = "med";
-            bindings = <
-&trans  &trans                &trans                &trans          &trans            &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &trans  &trans  &trans  &trans  &trans  &trans
-        &trans                &trans                &kp K_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP  &trans  &trans  &trans  &trans  &trans
-                                                    &trans          &none             &trans           &trans  &trans  &trans
+                                    &trans        &mo 4         &trans   &trans        &none     &trans
             >;
         };
 
         device {
             display-name = "dev";
             bindings = <
-&bt BT_CLR    &trans        &trans        &trans        &trans        &trans        &mkp MB4        &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &type_email
-&out OUT_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &type_wrk_email
-              &trans        &trans        &trans        &trans        &trans        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
-                                          &trans        &none         &trans        &trans          &none           &trans
+&bt BT_CLR    &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT       &mkp MB4        &mkp LCLK       &mkp MCLK     &mkp RCLK        &trans  &type_email
+&out OUT_TOG  &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &type_wrk_email
+              &trans                &trans                &kp K_MUTE      &kp C_VOL_DN      &kp C_VOLUME_UP  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+                                                          &trans          &none             &trans           &trans          &none           &trans
             >;
         };
 
@@ -227,12 +217,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        device {
-            if-layers = <1 2>;
-            then-layer = <4>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };
