@@ -33,7 +33,7 @@
         };
 
         conn_cb {
-            bindings = <&none>;
+            bindings = <&ind_conn>;
             key-positions = <37 38>;
             layers = <0>;
             slow-release;
