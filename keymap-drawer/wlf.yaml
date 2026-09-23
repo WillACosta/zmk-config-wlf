@@ -80,7 +80,7 @@ layers:
     - ''
   - - {type: trans}
     - {type: trans}
-    - {type: trans}
+    - dev
     - {type: trans}
   num:
   - - {type: trans}
@@ -118,59 +118,18 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - {type: trans}
+    - lght
   - - {type: trans}
     - {type: trans}
     - ''
     - {type: trans}
-  med:
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
+  dev:
+  - - {t: '$$lucide:bluetooth-off$$', type: held}
     - $$lucide:sun-dim$$
     - $$lucide:sun$$
     - $$lucide:skip-back$$
     - $$lucide:play$$
     - $$lucide:skip-forward$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  - - {type: trans}
-    - {type: trans}
-    - $$lucide:volume-x$$
-    - $$lucide:volume-1$$
-    - $$lucide:volume-2$$
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - ''
-  - - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-  dev:
-  - - {t: '$$lucide:bluetooth-off$$', type: held}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
     - {t: '$$lucide:mouse$$', s: '4'}
     - {t: '$$lucide:mouse$$', s: L}
     - {t: '$$lucide:mouse$$', s: M}
@@ -191,9 +150,9 @@ layers:
     - {t: '$$lucide:mail$$', s: work}
   - - {type: trans}
     - {type: trans}
-    - {type: trans}
-    - {type: trans}
-    - {type: trans}
+    - $$lucide:volume-x$$
+    - $$lucide:volume-1$$
+    - $$lucide:volume-2$$
     - $$lucide:chevrons-left$$
     - $$lucide:chevrons-down$$
     - $$lucide:chevrons-up$$
@@ -203,7 +162,7 @@ layers:
     - ''
   - - {type: trans}
     - {type: trans}
-    - ''
+    - {type: held}
     - {type: trans}
   lght:
   - - {type: trans}
@@ -241,7 +200,7 @@ layers:
     - {type: trans}
     - {type: trans}
     - {type: trans}
-    - {type: trans}
+    - {type: held}
   - - {type: trans}
     - {type: trans}
     - ''
