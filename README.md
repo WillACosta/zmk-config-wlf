@@ -30,7 +30,7 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
   - **Connection:** Solid Blue for connected, breathing/pulsing Blue for disconnected/advertising, solid White for USB.
   - **Battery:** 80–100% Solid Green, 40–79% Solid Yellow, <40% Solid Red, Breathing Green when charging.
   - **Layers:** Base, Symbols, Numbers, and Media have no layer color; Device uses green and Light uses cyan.
-  - **On-Demand & Energy Saving:** On the Base layer, press the left layer thumb + Space for Battery (`&ind_bat`), or Enter + the right layer thumb for Connection (`&ind_conn`). The configured external-power timeout is 15 seconds.
+  - **On-Demand & Energy Saving:** On the Base layer, press the left layer thumb + Space for Battery (`&ind_bat`), or Enter + the right layer thumb for Connection (`&ind_con`). The configured external-power timeout is 15 seconds.
 - **Pointing & Scrolling:** Mouse emulation is enabled with `CONFIG_ZMK_POINTING=y`. Device provides mouse movement, four-way scrolling (`&msc SCRL_*`), and mouse clicks. Smooth scrolling is not explicitly enabled in `config/wlf.conf`.
 
 ## Hardware mapping
@@ -59,7 +59,7 @@ The Wolf incorporates both per-key monochrome backlighting (white dumb LEDs) and
 
 ### 1. Independent ZMK Subsystems
 - **White Backlight (`CONFIG_ZMK_BACKLIGHT`):** Driven by Zephyr's `pwm-leds` subsystem using the `&bl` behavior namespace (`&bl BL_TOG`, `&bl BL_INC`, `&bl BL_DEC`).
-- **Status RGB LEDs (`CONFIG_ZMK_RGB_UNDERGLOW` & `zmk-rgbled-widget`):** Driven by Zephyr's `worldsemi,ws2812-spi` driver using the `&rgb_ug` namespace and custom widget behaviors (`&ind_conn`, `&ind_bat`).
+- **Status RGB LEDs (`CONFIG_ZMK_RGB_UNDERGLOW` & `zmk-rgbled-widget`):** Driven by Zephyr's `worldsemi,ws2812-spi` driver using the `&rgb_ug` namespace and custom widget behaviors (`&ind_con`, `&ind_bat`).
 
 ### 2. Hardware Resource Independence (nRF52840)
 - **Zero Peripheral Collision:** Backlight utilizes Nordic `PWM0` routed to pin `P1.14` (`D10`), while addressable RGB uses Nordic `SPIM3` MOSI on pin `P0.09` (`NFC1`). Because `PWM0` and `SPIM3` are completely distinct hardware peripherals on the nRF52840, there is no timer or DMA contention.
