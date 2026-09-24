@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: wlf}
 layers:
   base:
-  - - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:arrow-big-up$$'}
+  - - {t: '$$lucide:chevron-up$$', type: ghost}
     - Q
     - W
     - E
@@ -13,7 +13,7 @@ layers:
     - O
     - P
     - $$lucide:delete$$
-  - - {t: '$$lucide:chevron-up$$', type: ghost}
+  - - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:arrow-big-up$$'}
     - A
     - {t: S, h: '$$lucide:option$$'}
     - {t: D, h: '$$lucide:chevron-up$$'}
