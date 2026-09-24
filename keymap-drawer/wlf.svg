@@ -983,7 +983,8 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(672, 84)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#lucide:delete" xlink:href="#lucide:delete" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:delete"/>
+<use href="#lucide:circle-arrow-out-up-left" xlink:href="#lucide:circle-arrow-out-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:circle-arrow-out-up-left"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(28, 140)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1038,8 +1039,7 @@ svg.keymap g.key.ghost g.glyph circle {
 </g>
 <g transform="translate(672, 140)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#lucide:circle-arrow-out-up-left" xlink:href="#lucide:circle-arrow-out-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:circle-arrow-out-up-left"/>
-<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:chevron-up"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
 </g>
 <g transform="translate(84, 168)" class="key keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1156,9 +1156,8 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(30, 328)" class="layer-sym">
 <text x="0" y="28" class="label" id="sym">sym:</text>
 <g transform="translate(0, 56)">
-<g transform="translate(28, 84)" class="key keypos-0">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#lucide:delete" xlink:href="#lucide:delete" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:delete"/>
+<g transform="translate(28, 84)" class="key trans keypos-0">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
 <g transform="translate(84, 56)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1203,8 +1202,9 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(672, 84)" class="key trans keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(28, 140)" class="key trans keypos-12">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(28, 140)" class="key keypos-12">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<use href="#lucide:delete" xlink:href="#lucide:delete" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:delete"/>
 </g>
 <g transform="translate(84, 112)" class="key trans keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1237,9 +1237,8 @@ svg.keymap g.key.ghost g.glyph circle {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">`</text>
 </g>
-<g transform="translate(560, 98)" class="key keypos-21">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
+<g transform="translate(560, 98)" class="key trans keypos-21">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
 <g transform="translate(616, 112)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1278,9 +1277,8 @@ svg.keymap g.key.ghost g.glyph circle {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">~</text>
 </g>
-<g transform="translate(560, 154)" class="key keypos-32">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&quot;</text>
+<g transform="translate(560, 154)" class="key trans keypos-32">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
 <g transform="translate(616, 168)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1397,8 +1395,9 @@ svg.keymap g.key.ghost g.glyph circle {
 <g transform="translate(616, 112)" class="key trans keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 </g>
-<g transform="translate(672, 140)" class="key trans keypos-23">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(672, 140)" class="key keypos-23">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">DEL</text>
 </g>
 <g transform="translate(84, 168)" class="key trans keypos-24">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

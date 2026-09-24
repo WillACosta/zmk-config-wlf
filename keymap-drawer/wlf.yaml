@@ -12,7 +12,7 @@ layers:
     - I
     - O
     - P
-    - $$lucide:delete$$
+    - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:chevron-up$$'}
   - - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:arrow-big-up$$'}
     - A
     - {t: S, h: '$$lucide:option$$'}
@@ -24,7 +24,7 @@ layers:
     - {t: K, h: '$$lucide:chevron-up$$'}
     - {t: L, h: '$$lucide:option$$'}
     - ;
-    - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:chevron-up$$'}
+    - ''''
   - - Z
     - X
     - C
@@ -42,7 +42,7 @@ layers:
     - num
     - {t: '$$lucide:option$$', type: ghost}
   sym:
-  - - $$lucide:delete$$
+  - - {type: trans}
     - '!'
     - '@'
     - '#'
@@ -54,7 +54,7 @@ layers:
     - (
     - )
     - {type: trans}
-  - - {type: trans}
+  - - $$lucide:delete$$
     - {type: trans}
     - /
     - \
@@ -63,7 +63,7 @@ layers:
     - '-'
     - '='
     - '`'
-    - ''''
+    - {type: trans}
     - {type: trans}
     - {type: trans}
   - - {type: trans}
@@ -74,7 +74,7 @@ layers:
     - _
     - +
     - '~'
-    - '"'
+    - {type: trans}
     - {type: trans}
     - {type: trans}
     - {type: held}
@@ -106,7 +106,7 @@ layers:
     - $$lucide:arrow-up$$
     - $$lucide:arrow-right$$
     - {type: trans}
-    - {type: trans}
+    - DEL
   - - {type: trans}
     - {type: trans}
     - {type: trans}
