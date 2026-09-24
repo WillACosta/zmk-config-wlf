@@ -36,10 +36,10 @@ layers:
     - .
     - /
     - {t: '$$lucide:command$$', type: ghost}
-    - {t: '$$lucide:braces$$', h: '$$lucide:music$$'}
+    - sym
   - - $$lucide:space$$
     - $$lucide:corner-down-left$$
-    - {t: '$$lucide:hash$$', h: '$$lucide:lightbulb$$'}
+    - num
     - {t: '$$lucide:option$$', type: ghost}
   sym:
   - - $$lucide:delete$$
@@ -77,7 +77,7 @@ layers:
     - '"'
     - {type: trans}
     - {type: trans}
-    - ''
+    - {type: held}
   - - {type: trans}
     - {type: trans}
     - dev
@@ -121,7 +121,7 @@ layers:
     - lght
   - - {type: trans}
     - {type: trans}
-    - ''
+    - {type: held}
     - {type: trans}
   dev:
   - - {t: '$$lucide:bluetooth-off$$', type: held}
@@ -159,7 +159,7 @@ layers:
     - $$lucide:chevrons-right$$
     - {type: trans}
     - {type: trans}
-    - ''
+    - {type: held}
   - - {type: trans}
     - {type: trans}
     - {type: held}
@@ -203,7 +203,7 @@ layers:
     - {type: held}
   - - {type: trans}
     - {type: trans}
-    - ''
+    - {type: held}
     - {type: trans}
 combos:
 - p: [35, 36]
