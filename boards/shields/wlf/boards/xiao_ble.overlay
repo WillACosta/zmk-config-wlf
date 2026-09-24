@@ -8,16 +8,16 @@
 };
 
 &pinctrl {
-    /* D10 / P1.14 drives the AO3400A low-side backlight MOSFET. */
+    /* D10 / P1.15 drives the AO3400A low-side backlight MOSFET. */
     wlf_pwm0_default: wlf_pwm0_default {
         group1 {
-            psels = <NRF_PSEL(PWM_OUT0, 1, 14)>;
+            psels = <NRF_PSEL(PWM_OUT0, 1, 15)>;
         };
     };
 
     wlf_pwm0_sleep: wlf_pwm0_sleep {
         group1 {
-            psels = <NRF_PSEL(PWM_OUT0, 1, 14)>;
+            psels = <NRF_PSEL(PWM_OUT0, 1, 15)>;
             low-power-enable;
         };
     };

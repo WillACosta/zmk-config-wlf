@@ -25,7 +25,7 @@ Official ZMK firmware and keymap configuration for **The Wolf** (`wlfkbd`), a 40
 - The 40-key, 6-column × 4-row electrical matrix, including the missing outer-pinky bottom key and three thumb keys per half.
 - Six layers: Base (0), Symbols (1), Numbers (2), Media (3), Device (4), and Light (5). Hold the left layer thumb for Symbols; tap once then hold it for Media. Hold the right layer thumb for Numbers; tap once then hold it for Light. Holding both layer thumbs activates Device.
 - Bluetooth profile selection/clear and output switching on Device, plus NKRO, sleep, and short matrix debounce.
-- Single-zone white backlight support: D10/P1.14 PWM drives the AO3400A low-side MOSFET; use Light `BL_ON`, `BL_OFF`, `BL_INC`, and `BL_DEC`.
+- Single-zone white backlight support: D10/P1.15 PWM drives the AO3400A low-side MOSFET; use Light `BL_ON`, `BL_OFF`, `BL_INC`, and `BL_DEC`.
 - Status RGB LED widget (`zmk-rgbled-widget`):
   - **Connection:** Solid Blue for connected, breathing/pulsing Blue for disconnected/advertising, solid White for USB.
   - **Battery:** 80–100% Solid Green, 40–79% Solid Yellow, <40% Solid Red, Breathing Green when charging.
@@ -41,7 +41,7 @@ The schematics define the same MCU pin assignments on both halves:
 | --- | --- |
 | ROW0–ROW3 | D0–D3 |
 | COL0–COL5 | D4–D9 |
-| White backlight PWM | D10 / P1.14 |
+| White backlight PWM | D10 / P1.15 |
 | Status LED data (`STS_LED_DATA`) | NFC1 / P0.09 (SPIM3 MOSI) |
 | Status LED power enable (`STS_LED_EN`) | NFC2 / P0.10 (AO3407A Gate, Active-Low) |
 
@@ -62,7 +62,7 @@ The Wolf incorporates both per-key monochrome backlighting (white dumb LEDs) and
 - **Status RGB LEDs (`CONFIG_ZMK_RGB_UNDERGLOW` & `zmk-rgbled-widget`):** Driven by Zephyr's `worldsemi,ws2812-spi` driver using the `&rgb_ug` namespace and custom widget behaviors (`&ind_con`, `&ind_bat`).
 
 ### 2. Hardware Resource Independence (nRF52840)
-- **Zero Peripheral Collision:** Backlight utilizes Nordic `PWM0` routed to pin `P1.14` (`D10`), while addressable RGB uses Nordic `SPIM3` MOSI on pin `P0.09` (`NFC1`). Because `PWM0` and `SPIM3` are completely distinct hardware peripherals on the nRF52840, there is no timer or DMA contention.
+- **Zero Peripheral Collision:** Backlight utilizes Nordic `PWM0` routed to pin `P1.15` (`D10`), while addressable RGB uses Nordic `SPIM3` MOSI on pin `P0.09` (`NFC1`). Because `PWM0` and `SPIM3` are completely distinct hardware peripherals on the nRF52840, there is no timer or DMA contention.
 - **Dedicated Low-Side & High-Side Switching:** The backlight PWM signal drives the gate of an `AO3400A` N-channel MOSFET (switching ground). Status LED power is independently gated on the high side by an `AO3407A` P-channel MOSFET controlled by pin `P0.10` (`NFC2`).
 
 ### 3. Battery Conservation & Idle Management
