@@ -179,10 +179,10 @@
         symbol {
             display-name = "sym";
             bindings = <
-&trans      &kp EXCL  &kp AT        &kp HASH       &kp DLLR          &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
-&kp DELETE  &trans    &kp SLASH     &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans    &trans    &trans
-            &trans    &kp QUESTION  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDER  &kp PLUS   &kp TILDE  &trans    &trans
-                                    &trans         &none             &trans             &trans     &mo 3      &trans
+&trans      &kp EXCL  &kp AT  &kp HASH       &kp DLLR          &kp PRCNT          &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&kp DELETE  &trans    &trans  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS  &kp EQUAL  &kp GRAVE  &trans    &trans    &trans
+            &trans    &trans  &kp PIPE       &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp UNDER  &kp PLUS   &kp TILDE  &trans    &trans
+                              &trans         &none             &trans             &trans     &mo 3      &trans
             >;
         };
 
