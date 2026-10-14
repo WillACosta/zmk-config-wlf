@@ -56,25 +56,25 @@ layers:
     - {type: trans}
   - - $$lucide:delete$$
     - {type: trans}
-    - {type: trans}
+    - \
     - \
     - '['
     - ']'
     - '-'
     - '='
     - '`'
-    - {type: trans}
+    - .
     - {type: trans}
     - {type: trans}
   - - {type: trans}
-    - {type: trans}
+    - '?'
     - '|'
     - '{'
     - '}'
     - _
     - +
     - '~'
-    - {type: trans}
+    - ','
     - {type: trans}
     - {type: trans}
     - {type: held}
@@ -135,7 +135,7 @@ layers:
     - {t: '$$lucide:mouse$$', s: M}
     - {t: '$$lucide:mouse$$', s: R}
     - {type: trans}
-    - $$lucide:mail$$
+    - '&p_email'
   - - $$lucide:monitor-smartphone$$
     - {t: '$$lucide:bluetooth$$', s: '0'}
     - {t: '$$lucide:bluetooth$$', s: '1'}
@@ -147,10 +147,10 @@ layers:
     - $$lucide:arrow-up$$
     - $$lucide:arrow-right$$
     - {type: trans}
-    - {t: '$$lucide:mail$$', s: work}
+    - '&wrk_email'
   - - {type: trans}
     - {type: trans}
-    - $$lucide:volume-x$$
+    - MUTE
     - $$lucide:volume-1$$
     - $$lucide:volume-2$$
     - $$lucide:chevrons-left$$
