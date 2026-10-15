@@ -56,7 +56,7 @@ layers:
     - {type: trans}
   - - $$lucide:delete$$
     - {type: trans}
-    - \
+    - /
     - \
     - '['
     - ']'
