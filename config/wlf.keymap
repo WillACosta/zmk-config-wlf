@@ -101,6 +101,20 @@
             layers = <0>;
             slow-release;
         };
+
+        next_cb {
+            bindings = <&kp LG(RIGHT_BRACKET)>;
+            key-positions = <5 4>;
+            slow-release;
+            layers = <0>;
+        };
+
+        prev_cb {
+            bindings = <&kp LG(LEFT_BRACKET)>;
+            key-positions = <28 27>;
+            slow-release;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -169,7 +183,7 @@
         base {
             display-name = "base";
             bindings = <
-&kp LEFT_CONTROL       &kp Q  &kp W                 &kp E                     &kp R                   &kp T      &kp Y      &kp U                    &kp I                      &kp O                  &kp P     &mt LEFT_CONTROL ESCAPE
+&kp LEFT_CONTROL       &kp Q  &kp W                 &kp E                     &kp R                   &kp T      &kp Y      &kp U                    &kp I                      &kp O                  &kp P     &kp LEFT_CONTROL
 &mt LEFT_SHIFT ESCAPE  &kp A  &hrm_left LEFT_ALT S  &hrm_left LEFT_CONTROL D  &hrm_left LEFT_SHIFT F  &kp G      &kp H      &hrm_right LEFT_SHIFT J  &hrm_right LEFT_CONTROL K  &hrm_right LEFT_ALT L  &kp SEMI  &kp SINGLE_QUOTE
                        &kp Z  &kp X                 &kp C                     &kp V                   &kp B      &kp N      &kp M                    &kp COMMA                  &kp DOT                &kp FSLH
                                                     &kp LGUI                  &mo 1                   &kp SPACE  &kp ENTER  &mo 2                    &kp RALT
