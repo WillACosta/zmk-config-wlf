@@ -12,7 +12,7 @@ layers:
     - I
     - O
     - P
-    - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:chevron-up$$'}
+    - {t: '$$lucide:chevron-up$$', type: ghost}
   - - {t: '$$lucide:circle-arrow-out-up-left$$', h: '$$lucide:arrow-big-up$$'}
     - A
     - {t: S, h: '$$lucide:option$$'}
@@ -238,4 +238,10 @@ combos:
   l: [base]
 - p: [29, 30]
   k: $$lucide:chevron-down$$
+  l: [base]
+- p: [5, 4]
+  k: $$lucide:command$$+]
+  l: [base]
+- p: [28, 27]
+  k: $$lucide:command$$+[
   l: [base]

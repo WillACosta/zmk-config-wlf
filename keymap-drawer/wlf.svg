@@ -946,10 +946,9 @@ svg.keymap g.key.ghost g.glyph circle {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">P</text>
 </g>
-<g transform="translate(672, 84)" class="key keypos-11">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#lucide:circle-arrow-out-up-left" xlink:href="#lucide:circle-arrow-out-up-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph lucide:circle-arrow-out-up-left"/>
-<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-6" y="13" height="11" width="11.0" class="key hold glyph lucide:chevron-up"/>
+<g transform="translate(672, 84)" class="key ghost keypos-11">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key ghost"/>
+<use href="#lucide:chevron-up" xlink:href="#lucide:chevron-up" x="-7" y="-7" height="14" width="14.0" class="key ghost tap glyph lucide:chevron-up"/>
 </g>
 <g transform="translate(28, 140)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1115,6 +1114,14 @@ svg.keymap g.key.ghost g.glyph circle {
 <g class="combo combopos-10">
 <rect rx="6" ry="6" x="406" y="148" width="28" height="26" class="combo"/>
 <use href="#lucide:chevron-down" xlink:href="#lucide:chevron-down" x="413" y="154" height="14" width="14.0" class="combo tap glyph lucide:chevron-down"/>
+</g>
+<g class="combo combopos-11">
+<rect rx="6" ry="6" x="266" y="36" width="28" height="26" class="combo"/>
+<use href="#lucide:command" xlink:href="#lucide:command" x="273" y="42" height="14" width="14.0" class="combo tap glyph lucide:command"/>
+</g>
+<g class="combo combopos-12">
+<rect rx="6" ry="6" x="266" y="148" width="28" height="26" class="combo"/>
+<use href="#lucide:command" xlink:href="#lucide:command" x="273" y="154" height="14" width="14.0" class="combo tap glyph lucide:command"/>
 </g>
 </g>
 </g>
