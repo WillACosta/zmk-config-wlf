@@ -245,3 +245,5 @@ combos:
 - p: [28, 27]
   k: $$lucide:command$$+[
   l: [base]
+- p: [0, 1, 2]
+  k: $$lucide:arrow-big-up$$+$$lucide:command$$+\
