@@ -115,6 +115,11 @@
             slow-release;
             layers = <0>;
         };
+
+        safari_tabs {
+            bindings = <&kp LS(LG(BACKSLASH))>;
+            key-positions = <0 1 2>;
+        };
     };
 
     macros {
@@ -128,7 +133,7 @@
         wrk_email: type_wrk_email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp W &kp I &kp L &kp L &kp I &kp A &kp M &kp DOT &kp C &kp O &kp S &kp T &kp A &kp AT &kp Z &kp U &kp P &kp DOT &kp C &kp O &kp M &kp DOT &kp B &kp R>;
+            bindings = <&kp W &kp I &kp L &kp L &kp I &kp A &kp M &kp DOT &kp A &kp DOT &kp C &kp O &kp S &kp T &kp A &kp AT &kp B &kp R &kp A &kp D &kp E &kp S &kp C &kp O &kp DOT &kp C &kp O &kp M &kp DOT &kp B &kp R>;
             label = "TYPE_WRK_EMAIL";
         };
     };
